@@ -15,7 +15,6 @@ typedef struct
 
 //functions declarations
 WordStats initStats(WordStats st);
-WordStats updateStats(WordStats st, const char input[]);
 WordStats updateVowelCons(WordStats st, const char input[]);
 WordStats updateWordCount(WordStats st, const char input[]);
 void updateHistogram(int histo[], const char str[]);
