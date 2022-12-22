@@ -1,23 +1,29 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 15, 2015
+ *      Author: dchiu
+ */
 #include <stdio.h>
 #include <string.h>
+#include "defs.h"
 #include "stats.h"
 #include "menu.h"
 
-#define MAX_INPUT_LEN 128 /** maximum length of input users can enter */
-
 /**
- * Main function
- * 
- * @param argc the number of command line arguments (ignore for this assignment)
- * @param argv an array of command line arguments (ignore for this assignment)
+ * @brief Main function
+ *
+ * @param argc Ignore
+ * @param argv Ignore
+ * @return int
  */
-int main(int argc, char **argv)
-{
-	char input[MAX_INPUT_LEN]; //holds user-input string
+int main(int argc, char *argv[]) {
+	// declare and initialize the histogram
+	int histogram[ALPHABET_SIZE];
 
-	// TODO: repeatedly print menu options and prompt for an option
-	// TODO: display the proper output
-
+	// TODO: start by getting strings from users until # is input
+	// TODO: after # is input, print menu options
+	
 	printf("Exiting...\n");
 	return 0;
 }
